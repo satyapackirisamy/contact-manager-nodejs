@@ -1,0 +1,4 @@
+{
+    "db": "mongodb://localhost/contact_manager",
+    "private_key": "contactManagerKey"
+}
