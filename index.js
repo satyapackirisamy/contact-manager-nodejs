@@ -5,4 +5,5 @@ const PORT = 8008
 require('./startup/routes')(app)
 require('./startup/db')()
 
-app.listen(()=>console.log('Connection is success!!'))
+// app.listen(PORT, ()=>console.log(`Connected to the port ${PORT}`))
+app.listen(()=>console.log('Server is up and running!!'))
