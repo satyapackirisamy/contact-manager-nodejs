@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=production && node index.js"
-    // "start-prod": "set NODE_ENV=production && node index.js"
   },
   "keywords": [],
   "author": "",
