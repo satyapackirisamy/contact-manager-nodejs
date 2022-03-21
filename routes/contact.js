@@ -1,12 +1,12 @@
 const router = require('express').Router();
 const {Contact, Validate} = require('../models/contact')
  
-router.get('/all', async (req,res) =>{
+router.get('/', async (req,res) =>{
     const contacts = await Contact.find();
     res.send(contacts)
 });
 
-router.post('/new', async (req,res) =>{
+router.post('/', async (req,res) =>{
     const { error } = Validate(req.body);
     if(error) return res.status(400).send(error.details[0].message);
 
