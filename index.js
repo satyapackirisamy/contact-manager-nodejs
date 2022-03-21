@@ -6,4 +6,4 @@ require('./startup/routes')(app)
 require('./startup/db')()
 
 // app.listen(PORT, ()=>console.log(`Connected to the port ${PORT}`))
-app.listen(()=>console.log('Server is up and running!!'))
+app.listen(process.env.PORT, '0.0.0.0', ()=>console.log('Server is up and running!!'))
