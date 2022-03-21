@@ -1,7 +1,7 @@
 GET
 =============
 Endpoint Url: 
-https://contact-satya.herokuapp.com/api/contact/all
+https://contact-satya.herokuapp.com/api/contact
 
 Status Code: 200
 
@@ -33,7 +33,7 @@ POST
 ================
 
 Endpoint: 
-https://contact-satya.herokuapp.com/api/contact/new
+https://contact-satya.herokuapp.com/api/contact
 
 Post Req
 
