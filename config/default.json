@@ -1,4 +1,4 @@
 {
-    "db": "mongodb+srv://apexUser:apexPass@cluster0.3lvjv.mongodb.net/contact_manager",
+    "db": "",
     "private_key": "contactManagerKey"
 }
