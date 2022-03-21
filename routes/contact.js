@@ -40,4 +40,8 @@ router.delete('/:id', async (req,res)=>{
 
 });
 
+router.get('/hello', async (req,res) => {
+    res.send('Hello! How are you?')
+})
+
 module.exports = router;
